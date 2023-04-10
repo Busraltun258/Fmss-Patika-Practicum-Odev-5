@@ -1,9 +1,87 @@
-/* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+.primaryBtn {
+  background-color: lightcoral;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: bold;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  line-height: 40px; /* dikey hizalama */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.defaultBtn {
+  background-color: transparent;
+  color: #333;
+  padding: 12px 24px;
+  border-radius: 6px;
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  line-height: 40px;
+  margin: 2px;
+}
+.dashedBtn {
+  background-color: transparent;
+  color: #333;
+  padding: 12px 24px;
+  border-radius: 6px;
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px dashed #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  line-height: 40px;
+}
+.textBtn {
+  background-color: transparent;
+  color: #333;
+  padding: 0;
+  border: none;
+  height: auto;
+  width: auto;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  line-height: normal;
+  margin: 10px;
+}
+
+.linkBtn {
+  background-color: transparent;
+  color: #007bff;
+  padding: 0;
+  border: none;
+  height: auto;
+  width: auto;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+  transition: color 0.3s ease-in-out;
+  line-height: normal;
 }
